@@ -4,7 +4,7 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
-from server.models import *
+from adverts.models import *
 
 
 # This code is triggered whenever a new user has been created and saved to the database
